@@ -14,15 +14,24 @@ public class PlayerController : MonoBehaviour {
 	public Text playerScore;
 	private void clickHandler()
 	{
+		
+		#if UNITY_EDITOR
 		if (Input.GetKeyDown(KeyCode.M) && !isGameOver) {
 			birdRigidBody.velocity = new Vector2(0,0);
 			birdRigidBody.AddForce(jumpForce);
 		}
+		#endif
+
+		#if UNITY_ANDROID
 		if (Input.touchCount > 0) {
-
 			Touch firstTouch = Input.touches [0];
-
+			if (firstTouch.phase == TouchPhase.Began)
+			{
+				birdRigidBody.velocity = new Vector2(0,0);
+				birdRigidBody.AddForce(jumpForce);
+			}
 		}
+		#endif
 	}
 
 	public int GetScore()

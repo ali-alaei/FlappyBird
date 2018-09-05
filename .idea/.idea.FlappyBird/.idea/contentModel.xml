@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\alialaei\.Rider2018.1\system\resharper-host\Local\Transient\ReSharperHost\v12\SolutionCaches\_FlappyBird.-874662522.00" t="ExcludeRecursive" />
+    <e p="C:\Users\alialaei\Desktop\Unity Projects\FlappyBird" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="ScoreHandler.cs" t="Include" />
+        <e p="Scripts" t="Include">
+          <e p="BackgroundController.cs" t="Include" />
+          <e p="GameManager.cs" t="Include" />
+          <e p="PipeController.cs" t="Include" />
+          <e p="PlayerController.cs" t="Include" />
+          <e p="StoreHighScore.cs" t="Include" />
+          <e p="Test.cs" t="Include" />
+          <e p="TouchInput.cs" t="Include" />
+        </e>
+        <e p="test.shader" t="Include" />
+      </e>
+      <e p="FlappyBird.sln" t="IncludeFlat" />
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
+    </e>
+  </component>
+</project>
